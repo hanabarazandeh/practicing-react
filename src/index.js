@@ -10,14 +10,8 @@ import App from './App';
 //   document.getElementById('root')
 // );
 
-function AppTwo() {
-  return <h1>This is another component</h1>;
-}
 ReactDOM.render(
-  <React.Fragment>
-    <App />
-    <AppTwo />
-  </React.Fragment>,
+    <App authorized={true}/>,
   document.getElementById('root')
 );
 
