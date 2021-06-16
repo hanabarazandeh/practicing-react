@@ -14,7 +14,7 @@ function App() {
               (checked) => !checked
             )
           }
-        }ƒ
+        }
       />
       <p>{checked ? "checked" : "not checked"}</p>
     </>
